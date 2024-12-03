@@ -66,3 +66,23 @@ Este projeto justifica-se pela necessidade de otimizar o processo de inspeção 
 ## 7. Conclusão
 
 Este projeto visa entregar uma solução prática e eficiente para melhorar a gestão da manutenção de motores elétricos, utilizando tecnologias web acessíveis e aplicando os conhecimentos adquiridos. A implementação do APME contribuirá para uma operação mais segura, eficiente e sustentável.
+
+
+**Confira o SITE aqui!** [APME](https://johnnatankrause.github.io/APME/)
+
+
+**Atenciosamente,**  
+**Johnnatan Krause**  
+Desenvolvedor FrontEnd 
+
+## Conecte-se comigo
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/johnnatankrause/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JohnnatanKrause) 
+[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/channels/@johnnatankrause/)
+[![DIO](https://img.shields.io/badge/DIO-0000FF?style=for-the-badge&logo=digitalocean&logoColor=white)](https://www.dio.me/users/johnnatankrause)
+
+
+![Faculdade Descomplica Digital](https://img.shields.io/badge/Faculdade%20Descomplica%20Digital-4CAF50?style=for-the-badge&logo=dio&logoColor=white) 
+![Curso EAD](https://img.shields.io/badge/Curso%20EAD-4CAF50?style=for-the-badge&logo=education&logoColor=white) 
+![Tecnólogo em Análise e Desenvolvimento de Sistemas](https://img.shields.io/badge/Tecn%C3%B3logo%20em%20An%C3%A1lise%20e%20Desenvolvimento%20de%20Sistemas-4CAF50?style=for-the-badge&logoColor=white)
