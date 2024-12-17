@@ -1,29 +1,84 @@
-body {
+/* Variables */
+:root {
+    --primary-color: #4CAF50;
+    --secondary-color: #2196F3;
+    --text-color: black;
+    --background-color: rgba(255, 255, 255, 0.6);
+    --border-radius: 5px;
+}
+
+/* Reset */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+form,
+input,
+select,
+button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: sans-serif;
-    background-image: url("../img/inspeção.png");
+}
+
+/* Body */
+body {
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Imagens de fundo */
+body.form1-bg {
+    background-image: url("../img/inspeção01.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-blend-mode: multiply;
-    color: black;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
+body.form2-bg {
+    background-image: url("../img/inspeção02.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+}
+
+body.form3-bg {
+    background-image: url("../img/inspeção03.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+}
+
+
+/* Container */
 .container {
     max-width: 800px;
+    width: 95%;
     margin: 20px auto;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.6);
-    border-radius: 5px;
+    background-color: var(--background-color);
+    border-radius: var(--border-radius);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-h1 {
-    color: black;
-    font-weight: bold;
+/* Header */
+.header {
     margin-bottom: 10px;
+}
+
+.app-title {
+    color: var(--text-color);
+    font-weight: bold;
     display: flex;
     align-items: center;
 }
@@ -38,9 +93,14 @@ h1 {
     margin-bottom: 0;
 }
 
-form {
+/* Main */
+.main-content {
+    padding-bottom: 20px;
+}
+
+/* Forms */
+.form {
     width: 100%;
-    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -64,25 +124,42 @@ form {
 .form-group select {
     flex-grow: 1;
     padding: 10px;
-    border-radius: 5px;
-    border: 1px solid black;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--text-color);
     background-color: rgba(255, 255, 255, 0.8);
-    color: black;
+    color: var(--text-color);
     box-sizing: border-box;
     max-width: 400px;
 }
 
+/* Inputs Container */
+.inputs-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/* Section Titles */
+.section-title {
+    font-weight: bold;
+    margin: 10px 0;
+    width: 100%;
+    text-align: left;
+}
+
+/* Table */
 table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px auto;
     box-sizing: border-box;
-    border: 1px solid black;
+    border: 1px solid var(--text-color);
 }
 
 th,
 td {
-    border: 1px solid black;
+    border: 1px solid var(--text-color);
     padding: 8px;
     text-align: left;
     box-sizing: border-box;
@@ -93,12 +170,11 @@ th {
     color: white;
 }
 
-.btn-print,
-#btn-voltar,
-#btn-compare {
+/* Buttons */
+.btn {
     padding: 10px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: var(--border-radius);
     cursor: pointer;
     margin-top: 10px;
     display: block;
@@ -109,27 +185,22 @@ th {
 
 .btn-print {
     display: none;
-    background-color: #4CAF50;
+    background-color: var(--primary-color);
     color: white;
 }
 
 #btn-voltar {
     margin-bottom: 20px;
-    background-color: #4CAF50;
+    background-color: var(--primary-color);
     color: white;
 }
 
 #btn-compare {
-    background-color: #2196F3;
+    background-color: var(--secondary-color);
     color: white;
 }
 
-.logo {
-    max-width: 100px;
-    max-height: 50px;
-    margin-bottom: 0;
-}
-
+/* Image */
 .motor-image {
     max-width: 100%;
     height: auto;
@@ -139,22 +210,12 @@ th {
     margin-right: auto;
 }
 
+/* Text Colors */
 .black-text {
-    color: black;
+    color: var(--text-color);
 }
 
-.inputs-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
-
-.section-title {
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
+/* Status Container */
 .status-container {
     margin-top: 20px;
 }
@@ -163,21 +224,24 @@ th {
     margin-bottom: 10px;
 }
 
-footer {
+/* Footer */
+.footer {
     text-align: center;
     margin-top: 20px;
     font-size: 0.8em;
 }
 
-#resultados {
+/* Results Container */
+.results-container {
     text-align: center;
 }
 
-#resultados h2 {
+.results-container h2 {
     display: block;
     margin-bottom: 20px;
 }
 
+/* Top Info */
 .top-info {
     display: flex;
     align-items: center;
@@ -189,7 +253,7 @@ footer {
     margin: 0;
 }
 
-
+/* Motor Info */
 .motor-info {
     margin-bottom: 20px;
 }
@@ -198,16 +262,77 @@ footer {
     margin: 5px 0;
 }
 
+/* Print Logo */
 .print-logo {
     max-width: 50px;
     max-height: 25px;
     margin-right: 10px;
 }
 
+/* Alert Message */
 .alerta {
     background-color: #ffcccc;
     border: 1px solid #ff9999;
     padding: 10px;
     margin-top: 10px;
     border-radius: 5px;
+}
+
+/* Media Queries (Responsiveness) */
+@media (max-width: 600px) {
+    .form-group {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .form-group label {
+        text-align: left;
+        margin-bottom: 5px;
+        width: auto;
+    }
+
+    .form-group input,
+    .form-group select {
+        max-width: 100%;
+    }
+}
+
+/* Print Styles */
+@media print {
+    body {
+        background: none !important;
+        /* Remove o background principal */
+        color: black !important;
+    }
+
+    .container {
+        background: none !important;
+        /* Remove o background do container */
+        box-shadow: none !important;
+        /* Remove a sombra */
+    }
+
+    .results-container {
+        position: relative;
+    }
+
+    .results-container::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../img/inspeção.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 0.2;
+        z-index: -1;
+    }
+
+    .header,
+    .main-content,
+    .footer {
+        padding: 0;
+    }
 }
