@@ -68,7 +68,7 @@ Este projeto justifica-se pela necessidade de otimizar o processo de inspeção 
 Este projeto visa entregar uma solução prática e eficiente para melhorar a gestão da manutenção de motores elétricos, utilizando tecnologias web acessíveis e aplicando os conhecimentos adquiridos. A implementação do APME contribuirá para uma operação mais segura, eficiente e sustentável.
 
 
-**Confira o SITE aqui!** [ICQ-Equatorial](https://github.com/JohnnatanKrause/ICQ-Equatorial)
+**Confira o SITE aqui!** [APME](https://github.com/JohnnatanKrause/APME) 
 
 
 **Atenciosamente,**  
