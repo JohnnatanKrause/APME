@@ -4,7 +4,7 @@
 
 Este projeto de APME (Analisador de Performance de Motores Elétricos) visa facilitar o registro das inspeções diárias em motores elétricos de uma indústria. A solução desenvolvida é um site simples e intuitivo que permite aos eletricistas de manutenção registrarem dados de inspeção de forma rápida e segura, gerando relatórios impressos com informações detalhadas.
 
-
+  
 **Problema Identificado:** Atualmente, o registro das inspeções de motores elétricos é realizado manualmente, o que torna o processo lento, suscetível a erros e dificulta a análise de dados para manutenção preventiva. A falta de um sistema organizado dificulta a rastreabilidade e a identificação de problemas potenciais.
 
 **Solução Proposta:** Um site web que permite aos eletricistas:
@@ -68,7 +68,7 @@ Este projeto justifica-se pela necessidade de otimizar o processo de inspeção 
 Este projeto visa entregar uma solução prática e eficiente para melhorar a gestão da manutenção de motores elétricos, utilizando tecnologias web acessíveis e aplicando os conhecimentos adquiridos. A implementação do APME contribuirá para uma operação mais segura, eficiente e sustentável.
 
 
-**Confira o SITE aqui!** [APME](https://johnnatankrause.github.io/APME/)
+**Confira o SITE aqui!** [ICQ-Equatorial](https://github.com/JohnnatanKrause/ICQ-Equatorial)
 
 
 **Atenciosamente,**  
